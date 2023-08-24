@@ -1,6 +1,6 @@
 const size = {
 	width: 800,
-	height: 600
+	height: 600,
 };
 
 const scene = new THREE.Scene();
@@ -20,11 +20,9 @@ camera.lookAt(mesh.position);
 scene.add(camera);
 
 const renderer = new THREE.WebGLRenderer({
-	canvas: document.querySelector('.webgl')
+	canvas: document.querySelector(".webgl"),
 });
 
 renderer.setSize(size.width, size.height);
 
 renderer.render(scene, camera);
-
-
