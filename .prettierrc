@@ -1,6 +1,7 @@
 {
 	"useTabs": true,
 	"semi": true,
+	"singleQuote": true,
 	"quoteProps": "consistent",
 	"trailingComma": "all",
 	"arrowParens": "always"
